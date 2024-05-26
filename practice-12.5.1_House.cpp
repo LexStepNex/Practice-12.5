@@ -2,6 +2,8 @@
 #include <string>
 
 int main() {
+  std::cout << "Table of residents in the house\n";
+
   std::string apartment[10];
 
   for (int i = 0; i < 10; i++) {

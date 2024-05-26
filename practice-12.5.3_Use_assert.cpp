@@ -7,7 +7,7 @@ float travelTime(float distance, float speed) {
 }
 
 int main() {
-  std::cout << "Testing macros assert\n";
+  std::cout << "Using assert macro\n";
   int distance = 2000, speed = 0;
 
   std::cout << travelTime(distance, speed);
